@@ -8,6 +8,7 @@ const PhotoViwer = () => {
   const [sun, setSun] = useState(1000);
   const [cam, setCam] = useState("todas");
   const [hover, setHover] = useState("curiosity");
+  const cams = require("../../data/menu-data.json");
 
   const getData = useCallback(async (url, nomeHover, pagina, sol, camera) => {
     const response = await fetch(
@@ -30,6 +31,7 @@ const PhotoViwer = () => {
       data={data}
       click={() => getData()}
       setPage={setPage}
+      cams={cams["options-marte"]}
       setCam={setCam}
       setSun={setSun}
       page={page}

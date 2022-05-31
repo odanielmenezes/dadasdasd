@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Styled from "./style";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,15 +6,14 @@ import { faGlobeEurope } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "antd";
 import { MenuUnfoldOutlined, MenuFoldOutlined } from "@ant-design/icons";
 
-export function Component() {
-  const [collapsed, setCollapsed] = useState(false);
-  const [nameClass, setNameClass] = useState("component");
-  const data = require("../../data/menu-data.json");
+export function Component(props) {
 
-  const toggleCollapsed = () => {
-    setCollapsed(!collapsed);
-    setNameClass(nameClass === "component" ? "none" : "component");
-  };
+  const {
+    toggleCollapsed, 
+    data, 
+    collapsed, 
+    nameClass 
+  } = props;
 
   return (
     <Styled>
