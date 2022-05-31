@@ -2,7 +2,7 @@ import styled from "styled-components";
 import("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 const component_menu = styled.div`
-  .component {
+  .component-menu {
     font-family: "Roboto", sans-serif;
     width: 300px;
     height: 100vh;
@@ -93,9 +93,9 @@ const component_menu = styled.div`
       justify-content: center;
       align-items: end;
       flex-direction: column;
-      width: 300px;
 
       .item {
+        width: 300px;
         padding: 20px 10px;
         width: 60px;
         display: flex;

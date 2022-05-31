@@ -4,7 +4,7 @@ import MarteFoto from "../../assets/marte-planet.jpg"
 const primary = "#23A8F2"
 
 const style_component = styled.div`
-        .component {
+        .component-marte {
             width: 100%;
             height: 100vh;
             -webkit-touch-callout: none;

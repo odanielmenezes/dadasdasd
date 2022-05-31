@@ -13,7 +13,7 @@ const Component = (props) => {
   const [picture, setPicture] = useState();
   const [screen, setScreen] = useState("none-item");
 
-  const { setSun, hover, setPage, data, setCam, page, hoverName } = props;
+  const { setSun, hover, setPage, data, setCam, page, cams } = props;
 
   const selectHover = () => {
     hover(document.getElementById("hovers").value);
@@ -33,11 +33,9 @@ const Component = (props) => {
     setScreen("none-item");
   };
 
-  document.title = `${hoverName} (${data.photos ? data.photos.length : ""})`;
-
   return (
     <Styled>
-      <div className="component">
+      <div className="component-marte">
         <div className={screen}>
           <div className="content">
             <FontAwesomeIcon onClick={() => onClose()} icon={faClose} />
@@ -108,16 +106,9 @@ const Component = (props) => {
                 <div>
                   <small>Câmera: </small>
                   <select name="cams" id="cam">
-                    <option value="TODAS">TODAS</option>
-                    <option value="FHAZ">FHAZ</option>
-                    <option value="RHAZ">RHAZ</option>
-                    <option value="MAST">MAST</option>
-                    <option value="CHEMCAM">CHEMCAM</option>
-                    <option value="MAHLI">MAHLI</option>
-                    <option value="MARDI">MARDI</option>
-                    <option value="NAVCAM">NAVCAM</option>
-                    <option value="PANCAM">PANCAM</option>
-                    <option value="MINITES">MINITES</option>
+                    {cams.map((item) => {
+                      return <option value={item.opt}>{item.opt}</option>;
+                    })}
                   </select>
                 </div>
               </div>

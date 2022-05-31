@@ -3,37 +3,77 @@
         {
             "key": "1",
             "nome": "Fotos de Marte",
-            "to": "/marte"
+            "to": "/marte",
+            "icon": "faGlobeEurope"
         },
         {
             "key": "2",
             "nome": "Em breve",
-            "to": "/"
+            "to": "/",
+            "icon": "faLock"
         },
         {
             "key": "3",
             "nome": "Em breve",
-            "to": "/"
+            "to": "/",
+            "icon": "faLock"
         },
         {
             "key": "4",
             "nome": "Em breve",
-            "to": "/"
+            "to": "/",
+            "icon": "faLock"
         },
         {
             "key": "5",
             "nome": "Em breve",
-            "to": "/"
+            "to": "/",
+            "icon": "faLock"
         },
         {
             "key": "6",
             "nome": "Em breve",
-            "to": "/"
+            "to": "/",
+            "icon": "faLock"
         },
         {
             "key": "7",
             "nome": "Em breve",
-            "to": "/"
+            "to": "/",
+            "icon": "faLock"
+        }
+    ],
+    "options-marte": [
+        {
+            "opt": "TODAS"
+        },
+        {
+            "opt": "FHAZ"
+        },
+        {
+            "opt": "RHAZ"
+        },
+        {
+            "opt": "MAST"
+        },
+        {
+            "opt": "CHEMCAM"
+        },
+        {
+            "opt": "MAHLI"
+        },
+        {
+            "opt": "MARDI"
+        },
+        {
+            "opt": "NAVCAM"
+        },
+        {
+            "opt": "PANCAM"
+        },
+        {
+            "opt": "MINITES"
         }
     ]
+    
 }
