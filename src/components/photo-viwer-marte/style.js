@@ -47,7 +47,7 @@ const style_component = styled.div`
                     to {transform: scale(10deg);}
                 }
             }
-            .none {
+            .none-item {
                 display: none;
             }
             .content_inrow {

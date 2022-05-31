@@ -1,0 +1,39 @@
+{
+    "menu-items": [
+        {
+            "key": "1",
+            "nome": "Fotos de Marte",
+            "to": "/marte"
+        },
+        {
+            "key": "2",
+            "nome": "Em breve",
+            "to": "/"
+        },
+        {
+            "key": "3",
+            "nome": "Em breve",
+            "to": "/"
+        },
+        {
+            "key": "4",
+            "nome": "Em breve",
+            "to": "/"
+        },
+        {
+            "key": "5",
+            "nome": "Em breve",
+            "to": "/"
+        },
+        {
+            "key": "6",
+            "nome": "Em breve",
+            "to": "/"
+        },
+        {
+            "key": "7",
+            "nome": "Em breve",
+            "to": "/"
+        }
+    ]
+}
