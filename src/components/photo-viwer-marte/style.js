@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import MarteFoto from "../../assets/marte-planet.jpg"
 
 const primary = "#23A8F2"
 
@@ -113,31 +112,6 @@ const style_component = styled.div`
                         svg {
                             color: #FFF;
                         }
-                    }
-                }
-                .infos_page {
-                    background-image: url(${MarteFoto});
-                    background-attachment:fixed;
-                    background-repeat: no-repeat;
-                    background-size: 40%;                    
-                    height: 100vh;
-                    display: flex;
-                    width: 40vw;
-                    flex-direction: column;
-                    justify-content: center;
-                    padding: 0 50px;
-                    box-shadow: 4px 4px 6px rgba(0,0,0, .8);
-
-                    b {
-                        color: #202124;
-                    }
-                    h1 {
-                        font-size: 46px;
-                        text-shadow: 1px 1px 6px rgba(0,0,0, .8);
-                    }
-                    small {
-                        font-style: italic;
-                        font-size: 18px;
                     }
                 }
                 .cont {

@@ -13,7 +13,15 @@ const Component = (props) => {
   const [picture, setPicture] = useState();
   const [screen, setScreen] = useState("none-item");
 
-  const { setSun, hover, setPage, data, setCam, page, cams } = props;
+  const { 
+    setSun, 
+    hover, 
+    setPage, 
+    data, 
+    setCam, 
+    page, 
+    cams 
+  } = props;
 
   const selectHover = () => {
     hover(document.getElementById("hovers").value);
@@ -107,7 +115,7 @@ const Component = (props) => {
                   <small>Câmera: </small>
                   <select name="cams" id="cam">
                     {cams.map((item) => {
-                      return <option value={item.opt}>{item.opt}</option>;
+                      return <option key={item.key} value={item.opt}>{item.opt}</option>;
                     })}
                   </select>
                 </div>

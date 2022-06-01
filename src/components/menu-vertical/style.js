@@ -13,6 +13,7 @@ const component_menu = styled.div`
     align-items: end;
     flex-direction: column;
     box-shadow: 4px 4px 8px #000;
+    border-right: 3px solid #23A8F2;
 
     .button-collapse {
       margin-left: 200px;
@@ -87,6 +88,7 @@ const component_menu = styled.div`
     align-items: end;
     flex-direction: column;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    border-right: 3px solid #23A8F2;
 
     .items {
       display: flex;

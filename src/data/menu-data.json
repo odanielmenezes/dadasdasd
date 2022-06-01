@@ -45,34 +45,44 @@
     ],
     "options-marte": [
         {
-            "opt": "TODAS"
+            "opt": "TODAS",
+            "key": "1"
         },
         {
-            "opt": "FHAZ"
+            "opt": "FHAZ",
+            "key": "2"
         },
         {
-            "opt": "RHAZ"
+            "opt": "RHAZ",
+            "key": "3"
         },
         {
-            "opt": "MAST"
+            "opt": "MAST",
+            "key": "4"
         },
         {
-            "opt": "CHEMCAM"
+            "opt": "CHEMCAM",
+            "key": "5"
         },
         {
-            "opt": "MAHLI"
+            "opt": "MAHLI",
+            "key": "6"
         },
         {
-            "opt": "MARDI"
+            "opt": "MARDI",
+            "key": "7"
         },
         {
-            "opt": "NAVCAM"
+            "opt": "NAVCAM",
+            "key": "8"
         },
         {
-            "opt": "PANCAM"
+            "opt": "PANCAM",
+            "key": "9"
         },
         {
-            "opt": "MINITES"
+            "opt": "MINITES",
+            "key": "10"
         }
     ]
     
