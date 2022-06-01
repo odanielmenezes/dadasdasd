@@ -12,7 +12,7 @@ export function Component(props) {
     toggleCollapsed, 
     data, 
     collapsed, 
-    nameClass 
+    nameClass
   } = props;
 
   return (

@@ -3,12 +3,12 @@ import { Component } from "./component";
 
 export function MenuVertical() {
   const [collapsed, setCollapsed] = useState(false);
-  const [nameClass, setNameClass] = useState("component-menu");
+  const [nameClass, setNameClass] = useState("none");
   const data = require("../../data/menu-data.json");
 
   const toggleCollapsed = () => {
     setCollapsed(!collapsed);
-    setNameClass(nameClass === "component-menu" ? "none" : "component-menu");
+    setNameClass(nameClass === "none" ? "component-menu" : "none");
   };
 
   return (
